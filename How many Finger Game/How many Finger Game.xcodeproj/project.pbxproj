@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2DE2731E32A37600EAC8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE2721E32A37600EAC8A1 /* AppDelegate.swift */; };
+		EE2DE2751E32A37600EAC8A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE2741E32A37600EAC8A1 /* ViewController.swift */; };
+		EE2DE2781E32A37600EAC8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE2761E32A37600EAC8A1 /* Main.storyboard */; };
+		EE2DE27B1E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE2791E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodeld */; };
+		EE2DE27D1E32A37600EAC8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE27C1E32A37600EAC8A1 /* Assets.xcassets */; };
+		EE2DE2801E32A37600EAC8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2DE27E1E32A37600EAC8A1 /* LaunchScreen.storyboard */; };
+		EE2DE28B1E32A37700EAC8A1 /* How_many_Finger_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE28A1E32A37700EAC8A1 /* How_many_Finger_GameTests.swift */; };
+		EE2DE2961E32A37700EAC8A1 /* How_many_Finger_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2DE2951E32A37700EAC8A1 /* How_many_Finger_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2DE2871E32A37700EAC8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2DE2671E32A37600EAC8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2DE26E1E32A37600EAC8A1;
+			remoteInfo = "How many Finger Game";
+		};
+		EE2DE2921E32A37700EAC8A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2DE2671E32A37600EAC8A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2DE26E1E32A37600EAC8A1;
+			remoteInfo = "How many Finger Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE2DE26F1E32A37600EAC8A1 /* How many Finger Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How many Finger Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE2721E32A37600EAC8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE2DE2741E32A37600EAC8A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE2DE2771E32A37600EAC8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2DE27A1E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = How_many_Finger_Game.xcdatamodel; sourceTree = "<group>"; };
+		EE2DE27C1E32A37600EAC8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2DE27F1E32A37600EAC8A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2DE2811E32A37600EAC8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2DE2861E32A37700EAC8A1 /* How many Finger GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How many Finger GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE28A1E32A37700EAC8A1 /* How_many_Finger_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_many_Finger_GameTests.swift; sourceTree = "<group>"; };
+		EE2DE28C1E32A37700EAC8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2DE2911E32A37700EAC8A1 /* How many Finger GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "How many Finger GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2DE2951E32A37700EAC8A1 /* How_many_Finger_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = How_many_Finger_GameUITests.swift; sourceTree = "<group>"; };
+		EE2DE2971E32A37700EAC8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2DE26C1E32A37600EAC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE2831E32A37700EAC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE28E1E32A37700EAC8A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE2DE2661E32A37600EAC8A1 = {
+			isa = PBXGroup;
+			children = (
+				EE2DE2711E32A37600EAC8A1 /* How many Finger Game */,
+				EE2DE2891E32A37700EAC8A1 /* How many Finger GameTests */,
+				EE2DE2941E32A37700EAC8A1 /* How many Finger GameUITests */,
+				EE2DE2701E32A37600EAC8A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2DE2701E32A37600EAC8A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE26F1E32A37600EAC8A1 /* How many Finger Game.app */,
+				EE2DE2861E32A37700EAC8A1 /* How many Finger GameTests.xctest */,
+				EE2DE2911E32A37700EAC8A1 /* How many Finger GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2DE2711E32A37600EAC8A1 /* How many Finger Game */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE2721E32A37600EAC8A1 /* AppDelegate.swift */,
+				EE2DE2741E32A37600EAC8A1 /* ViewController.swift */,
+				EE2DE2761E32A37600EAC8A1 /* Main.storyboard */,
+				EE2DE27C1E32A37600EAC8A1 /* Assets.xcassets */,
+				EE2DE27E1E32A37600EAC8A1 /* LaunchScreen.storyboard */,
+				EE2DE2811E32A37600EAC8A1 /* Info.plist */,
+				EE2DE2791E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodeld */,
+			);
+			path = "How many Finger Game";
+			sourceTree = "<group>";
+		};
+		EE2DE2891E32A37700EAC8A1 /* How many Finger GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE28A1E32A37700EAC8A1 /* How_many_Finger_GameTests.swift */,
+				EE2DE28C1E32A37700EAC8A1 /* Info.plist */,
+			);
+			path = "How many Finger GameTests";
+			sourceTree = "<group>";
+		};
+		EE2DE2941E32A37700EAC8A1 /* How many Finger GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2DE2951E32A37700EAC8A1 /* How_many_Finger_GameUITests.swift */,
+				EE2DE2971E32A37700EAC8A1 /* Info.plist */,
+			);
+			path = "How many Finger GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2DE26E1E32A37600EAC8A1 /* How many Finger Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE29A1E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger Game" */;
+			buildPhases = (
+				EE2DE26B1E32A37600EAC8A1 /* Sources */,
+				EE2DE26C1E32A37600EAC8A1 /* Frameworks */,
+				EE2DE26D1E32A37600EAC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How many Finger Game";
+			productName = "How many Finger Game";
+			productReference = EE2DE26F1E32A37600EAC8A1 /* How many Finger Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2DE2851E32A37700EAC8A1 /* How many Finger GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE29D1E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger GameTests" */;
+			buildPhases = (
+				EE2DE2821E32A37700EAC8A1 /* Sources */,
+				EE2DE2831E32A37700EAC8A1 /* Frameworks */,
+				EE2DE2841E32A37700EAC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2DE2881E32A37700EAC8A1 /* PBXTargetDependency */,
+			);
+			name = "How many Finger GameTests";
+			productName = "How many Finger GameTests";
+			productReference = EE2DE2861E32A37700EAC8A1 /* How many Finger GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2DE2901E32A37700EAC8A1 /* How many Finger GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2DE2A01E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger GameUITests" */;
+			buildPhases = (
+				EE2DE28D1E32A37700EAC8A1 /* Sources */,
+				EE2DE28E1E32A37700EAC8A1 /* Frameworks */,
+				EE2DE28F1E32A37700EAC8A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2DE2931E32A37700EAC8A1 /* PBXTargetDependency */,
+			);
+			name = "How many Finger GameUITests";
+			productName = "How many Finger GameUITests";
+			productReference = EE2DE2911E32A37700EAC8A1 /* How many Finger GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2DE2671E32A37600EAC8A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yash Jain";
+				TargetAttributes = {
+					EE2DE26E1E32A37600EAC8A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M3CKALL8LM;
+						ProvisioningStyle = Automatic;
+					};
+					EE2DE2851E32A37700EAC8A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2DE26E1E32A37600EAC8A1;
+					};
+					EE2DE2901E32A37700EAC8A1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE2DE26E1E32A37600EAC8A1;
+					};
+				};
+			};
+			buildConfigurationList = EE2DE26A1E32A37600EAC8A1 /* Build configuration list for PBXProject "How many Finger Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2DE2661E32A37600EAC8A1;
+			productRefGroup = EE2DE2701E32A37600EAC8A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2DE26E1E32A37600EAC8A1 /* How many Finger Game */,
+				EE2DE2851E32A37700EAC8A1 /* How many Finger GameTests */,
+				EE2DE2901E32A37700EAC8A1 /* How many Finger GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2DE26D1E32A37600EAC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE2801E32A37600EAC8A1 /* LaunchScreen.storyboard in Resources */,
+				EE2DE27D1E32A37600EAC8A1 /* Assets.xcassets in Resources */,
+				EE2DE2781E32A37600EAC8A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE2841E32A37700EAC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE28F1E32A37700EAC8A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2DE26B1E32A37600EAC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE2751E32A37600EAC8A1 /* ViewController.swift in Sources */,
+				EE2DE2731E32A37600EAC8A1 /* AppDelegate.swift in Sources */,
+				EE2DE27B1E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE2821E32A37700EAC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE28B1E32A37700EAC8A1 /* How_many_Finger_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2DE28D1E32A37700EAC8A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DE2961E32A37700EAC8A1 /* How_many_Finger_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2DE2881E32A37700EAC8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2DE26E1E32A37600EAC8A1 /* How many Finger Game */;
+			targetProxy = EE2DE2871E32A37700EAC8A1 /* PBXContainerItemProxy */;
+		};
+		EE2DE2931E32A37700EAC8A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2DE26E1E32A37600EAC8A1 /* How many Finger Game */;
+			targetProxy = EE2DE2921E32A37700EAC8A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2DE2761E32A37600EAC8A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2DE2771E32A37600EAC8A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2DE27E1E32A37600EAC8A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2DE27F1E32A37600EAC8A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2DE2981E32A37700EAC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2DE2991E32A37700EAC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2DE29B1E32A37700EAC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3CKALL8LM;
+				INFOPLIST_FILE = "How many Finger Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2DE29C1E32A37700EAC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3CKALL8LM;
+				INFOPLIST_FILE = "How many Finger Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE2DE29E1E32A37700EAC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How many Finger GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How many Finger Game.app/How many Finger Game";
+			};
+			name = Debug;
+		};
+		EE2DE29F1E32A37700EAC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "How many Finger GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/How many Finger Game.app/How many Finger Game";
+			};
+			name = Release;
+		};
+		EE2DE2A11E32A37700EAC8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "How many Finger GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "How many Finger Game";
+			};
+			name = Debug;
+		};
+		EE2DE2A21E32A37700EAC8A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "How many Finger GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yashjain284.How-many-Finger-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "How many Finger Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2DE26A1E32A37600EAC8A1 /* Build configuration list for PBXProject "How many Finger Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE2981E32A37700EAC8A1 /* Debug */,
+				EE2DE2991E32A37700EAC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2DE29A1E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE29B1E32A37700EAC8A1 /* Debug */,
+				EE2DE29C1E32A37700EAC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE2DE29D1E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE29E1E32A37700EAC8A1 /* Debug */,
+				EE2DE29F1E32A37700EAC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE2DE2A01E32A37700EAC8A1 /* Build configuration list for PBXNativeTarget "How many Finger GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2DE2A11E32A37700EAC8A1 /* Debug */,
+				EE2DE2A21E32A37700EAC8A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE2DE2791E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE2DE27A1E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodel */,
+			);
+			currentVersion = EE2DE27A1E32A37600EAC8A1 /* How_many_Finger_Game.xcdatamodel */;
+			path = How_many_Finger_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE2DE2671E32A37600EAC8A1 /* Project object */;
+}
